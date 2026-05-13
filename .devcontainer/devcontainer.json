@@ -1,0 +1,26 @@
+{
+  "name": "snes9xgx",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "workspaceFolder": "/workspaces/snes9xgx",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.makefile-tools"
+      ],
+      "settings": {
+        "C_Cpp.default.intelliSenseEngine": "Tag Parser"
+      }
+    }
+  },
+  "remoteUser": "root",
+  "forwardPorts": [],
+  "remoteEnv": {
+    "DEVKITPRO": "/opt/devkitpro",
+    "DEVKITPPC": "/opt/devkitpro/devkitPPC",
+    "PORTLIBS": "/opt/devkitpro/portlibs/ppc"
+  }
+}
