@@ -1,5 +1,5 @@
 {
-  "name": "snes9xgx",
+  "name": "snes9xgx (libogc2)",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
